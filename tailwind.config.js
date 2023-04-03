@@ -12,6 +12,7 @@ export default {
         'dark-orange-color': '#B8B5A6',
         'light-orange-color': '#FEFBE9',
         'orange-color': '#F0A04B',
+        'gray-color': '#8F8F8F',
       },
     },
   },
