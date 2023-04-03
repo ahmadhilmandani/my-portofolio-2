@@ -7,13 +7,13 @@ import { IconBrandReact, IconBrandTailwind, IconBrandJavascript, IconBrandHtml5,
 export function About() {
     return (
         <>
-            <div className='w-full lg:h-[200px] bg-light-green-color flex flex-col justify-center items-center text-center absolute left-0 right-0 -z-20 p-4 lg:p-0'>
+            <div className='w-full h-[200px] bg-light-green-color flex flex-col justify-center items-center text-center absolute left-0 right-0 -z-20 p-4 lg:p-0'>
                 <p className='lg:text-3xl text-xl mb-4 lg:leading-relaxed font-semibold'>
                     "So, verily, with every difficulty, there is relief."
                 </p>
                 <small>(Quran 94:5)</small>
             </div>
-            <div className='w-full min-h-screen mt-52 lg:mt-72'>
+            <div className='w-full min-h-screen mt-72'>
                 <div className='flex gap-5 flex-wrap'>
                     <Number>1</Number>
                     <h1 id='about-me' className='font-semibold text-3xl lg:text-5xl'>About me</h1>
@@ -28,15 +28,15 @@ export function About() {
                     <p>
                         Here are a few technologies I’ve been working with recently:
                     </p>
-                    <div className='lg:flex lg:gap-14 px-5'>
+                    <div className='flex gap-14 px-5'>
                         <ul className='list-disc'>
-                            <li className='mt-3'><IconBrandReact /></li>
-                            <li className='my-2'><IconBrandTailwind /></li>
-                            <li><IconBrandJavascript /></li>
+                            <li className='mt-3'><IconBrandReact className='text-sky-400' /></li>
+                            <li className='my-2'><IconBrandTailwind className='text-cyan-400' /></li>
+                            <li><IconBrandJavascript className='text-yellow-500' /></li>
                         </ul>
                         <ul className='list-disc'>
-                            <li className='mt-3'><IconBrandHtml5 /></li>
-                            <li className='my-2'><IconBrandLaravel /></li>
+                            <li className='mt-3'><IconBrandHtml5 className='text-orange-600' /></li>
+                            <li className='my-2'><IconBrandLaravel className='text-red-600' /></li>
                         </ul>
                     </div>
                 </div>

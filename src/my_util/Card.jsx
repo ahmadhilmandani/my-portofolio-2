@@ -1,14 +1,22 @@
 import { PrimaryButton } from "./Button"
 
 export function Card(props) {
-    const { href, children, additioanl = null } = props
+    const { href, children, additional = null } = props
     return (
-        <a className={"max-w-[240px] w-full h-[400px] block bg-light-green-color "+additioanl}>
+        <a href={href} className={"block w-[280px] h-[480px] bg-light-green-color " + additional} target="_blank">
             {children}
-            <PrimaryButton size='sm' href={href}>DETAIL</PrimaryButton>
+            <PrimaryButton size='sm' href={href} additional={'mx-auto'}>DETAIL</PrimaryButton>
         </a>
     )
 }
+
+
+export function Image({ src, additional }) {
+    return (
+        <div className={"w-full h-full min-h-[100px] max-h-[160px] bg-cover bg-center "+additional} style={{ backgroundImage: `url(${src})` }}></div>
+    )
+}
+
 
 export function Header({ children }) {
     return (
@@ -16,11 +24,6 @@ export function Header({ children }) {
     )
 }
 
-export function Image({ src }) {
-    return (
-        <div className="w-full h-full min-h-[100px] max-h-[160px] bg-cover bg-center" style={{ backgroundImage: `url(${src})`}}></div>
-    )
-}
 
 export function Content({ children }) {
     return (
@@ -32,8 +35,8 @@ export function Content({ children }) {
 
 export function Skill({ children }) {
     return (
-        <span className='block mb-3 line-clamp-2 leading-relaxed px-3'>
-            <b className='font-medium'>Skill : </b>
+        <span className='mb-3 line-clamp-2 leading-relaxed px-3 flex gap-2'>
+            <p className='text-dark-orange-color'>Skill : </p>
             {children}
         </span>
     )
