@@ -5,9 +5,9 @@ import { Number } from './my_util/Number'
 import { Card, Header, Image, Content, Skill } from './my_util/Card'
 import baznas from './assets/baznas.jpg'
 
-function App() {
+function Home() {
   return (
-    <div className='w-full bg-red-50'>
+    <div className='w-full'>
       <PrimaryButton>my resume</PrimaryButton>
       <Number>1</Number>
       <Number>2</Number>
@@ -28,4 +28,4 @@ function App() {
   )
 }
 
-export default App
+export default Home

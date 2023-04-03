@@ -3,7 +3,7 @@ import { PrimaryButton } from "./Button"
 export function Card(props) {
     const { href, children, additioanl = null } = props
     return (
-        <a className={"max-w-[240px] w-full h-[400px] block border bg-light-green-color "+additioanl}>
+        <a className={"max-w-[240px] w-full h-[400px] block bg-light-green-color "+additioanl}>
             {children}
             <PrimaryButton size='sm' href={href}>DETAIL</PrimaryButton>
         </a>
