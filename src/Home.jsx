@@ -7,22 +7,7 @@ import baznas from './assets/baznas.jpg'
 
 function Home() {
   return (
-    <div className='w-full'>
-      <PrimaryButton>my resume</PrimaryButton>
-      <Number>1</Number>
-      <Number>2</Number>
-      <SecondaryButton size={'sm'} className="mt-10">contact</SecondaryButton>
-      <div className='mt-10 hover:tracking-wide'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odio ut nisi hic perspiciatis sunt optio fugiat laborum voluptatem temporibus, vel nihil quae aperiam minima quisquam in velit rerum! Quo.
-      </div>
-      <Card>
-        <Image src={baznas} />
-        <Header>Education</Header>
-        <Content>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, dolor! Culpa earum eligendi et cupiditate quae, ipsa temporibus sunt velit, maxime possimus adipisci voluptatum accusamus quod praesentium? Magnam, incidunt a.</Content>
-        <Skill>
-          mencintaimu
-        </Skill>
-      </Card>
+    <div className='w-full min-h-screen'>
 
     </div>
   )
