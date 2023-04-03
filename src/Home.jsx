@@ -6,7 +6,7 @@ import hero from './assets/hero.png'
 
 export function Home() {
   return (
-    <div className='w-full min-h-screen lg:h-screen flex flex-wrap lg:justify-between lg:items-center justify-center pt-20 lg:pt-0 lg:mt-0 overflow-hidden'>
+    <div id='home' className='w-full min-h-screen lg:h-screen flex flex-wrap lg:justify-between lg:items-center justify-center pt-20 lg:pt-0 lg:mt-0 overflow-hidden'>
       <div className='text-center lg:text-left w-full lg:w-[40%]'>
         <p className='mb-6 lg:mb-0'>Hello, there! My name is</p>
         <h1 className='mb-4 font-semibold text-4xl lg:text-6xl lg:leading-normal'>Ahmad Hilman Dani</h1>

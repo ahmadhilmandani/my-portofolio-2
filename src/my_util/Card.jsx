@@ -41,9 +41,3 @@ export function Skill({ children }) {
         </span>
     )
 }
-
-
-// Card.Header = Header
-// Card.Image = Image
-// Card.Content = Content
-// Card.Skill = Skill
