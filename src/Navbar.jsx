@@ -30,7 +30,7 @@ export function Navbar() {
                 <a href="#home" className='text-sm hover:-translate-y-1 transition ease-in-out duration-300'>Home</a>
                 <a href="#about-me" className='text-sm hover:-translate-y-1 transition ease-in-out duration-300'>About me</a>
                 <a href="#experience" className='text-sm hover:-translate-y-1 transition ease-in-out duration-300'>Experience</a>
-                <SecondaryButton href={'contact'} size={'sm'} additional='text-sm hover:-translate-y-1 transition ease-in-out duration-300'>Contact</SecondaryButton>
+                <SecondaryButton href={'mailto:ahmadhilmanlagi@gmail.com'} size={'sm'} additional='text-sm hover:-translate-y-1 transition ease-in-out duration-300' target="_blank">Contact</SecondaryButton>
             </div>
 
             <div className='lg:hidden block'>
