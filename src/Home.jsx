@@ -11,7 +11,7 @@ export function Home() {
         <p className='mb-6 lg:mb-0'>Hello, there! My name is</p>
         <h1 className='mb-4 font-semibold text-4xl lg:text-6xl lg:leading-normal'>Ahmad Hilman Dani</h1>
         <p className='mb-8 lg:mb-14 text-xl lg:text-2xl lg:leading-loose'>Learn to be A Front-end Developer! and UX Designer</p>
-        <PrimaryButton href={'https://drive.google.com/file/d/1JOObztK4qQo0aURDrbT6gY3uD3ZQ2Ox7/view?usp=share_link'} additional={'mx-auto lg:mx-0 hover:-translate-y-1 transition ease-in-out duration-300'}>MY RESUME</PrimaryButton>
+        <PrimaryButton href={'https://drive.google.com/file/d/17I7S_YflmBrfuDes-cjMvmLGDCTdUXm7/view?usp=share_link'} additional={'mx-auto lg:mx-0 hover:-translate-y-1 transition ease-in-out duration-300'}>MY RESUME</PrimaryButton>
       </div>
       <div className='full lg:w-[50%] self-end'>
         <img src={hero} alt="" className='w-full max-w-[540px] mx-auto' />
