@@ -1,11 +1,10 @@
-import logoOrange from './assets/logo-orange.png'
-
 import { IconBrandGithub, IconBrandGmail, IconBrandLinkedin, IconBrandInstagram } from '@tabler/icons-react'
 
+import logoOrange from './assets/logo-orange.png'
 
 export function Footer() {
     return (
-        <footer className='w-full bg-dark-green-color text-orange-color pt-10 absolute right-0 left-0 -z-50'>
+        <footer className='w-full bg-dark-green-color text-orange-color pt-10 absolute right-0 left-0 -z-10'>
             <div className='flex flex-wrap justify-center items-start gap-12 lg:gap-32 lg:p-12 p-6'>
                 <img src={logoOrange} alt="Ahmad Hilman Dani's Logo" className='h-[40px]' />
                 <div className='text-orange-color'>Available Services

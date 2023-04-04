@@ -5,7 +5,7 @@ import logoColored from './assets/logo-colored.png'
 import { IconMenu2, IconBrandGithub, IconBrandGmail, IconBrandLinkedin, IconBrandInstagram, IconX } from '@tabler/icons-react'
 
 export function Navbar() {
-    const menu = (params) => {
+    const menu = () => {
         document.getElementById('menu').classList.remove('hidden')
     }
 

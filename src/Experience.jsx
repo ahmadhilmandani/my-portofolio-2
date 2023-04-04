@@ -1,6 +1,5 @@
 import React from 'react'
 
-import { PrimaryButton, SecondaryButton } from './my_util/Button'
 import { Number } from './my_util/Number'
 import { Card, Image, Header, Content, Skill } from './my_util/Card'
 
@@ -8,11 +7,11 @@ import baznas from './assets/baznas.jpg'
 import hackfest from './assets/hackfest.jpg'
 import bnpt from './assets/bnpt-certificate.jpg'
 
-import { IconBrandReact, IconBrandTailwind, IconBrandJavascript, IconBrandHtml5, IconBrandLaravel, IconBrandFigma } from '@tabler/icons-react'
+import { IconBrandTailwind, IconBrandJavascript, IconBrandHtml5, IconBrandLaravel, IconBrandFigma } from '@tabler/icons-react'
 
 export function Experience() {
     return (
-        <main className='w-full h-screen'>
+        <main className='w-full h-screen lg:mt-0 mt-32'>
             <div className='flex gap-5 flex-wrap mb-10'>
                 <Number>2</Number>
                 <h1 id='experience' className='font-semibold text-3xl lg:text-5xl'>Experience</h1>

@@ -18,12 +18,16 @@ export function About() {
                     <Number>1</Number>
                     <h1 id='about-me' className='font-semibold text-3xl lg:text-5xl'>About me</h1>
                 </div>
-                <div className='w-full lg:w-1/2 mt-4'>
+                <div className='w-full lg:w-1/2 mt-4 lg:text-left text-justify'>
                     <p>
-                        Hello and welcome to my web portfolio! My name is Ahmad Hilman Dani, and I am an undergraduate student of Informatics Engineering with a passion for mastering frontend web development and UX design.
+                        Hello and welcome to my web portfolio! My name is Ahmad Hilman Dani, and I am an
+                        undergraduate student of Informatics Engineering with a passion for mastering frontend
+                        web development and UX design.
                     </p>
                     <p className='my-10'>
-                        My goal is to create stunning and user-friendly websites that provide an exceptional user experience. To achieve this, I am constantly improving my skills and staying up-to-date with the latest technologies and trends in the industry.
+                        My goal is to create stunning and user-friendly websites that provide an exceptional
+                        user experience. To achieve this, I am constantly improving my skills and staying up-to-date
+                        with the latest technologies and trends in the industry.
                     </p>
                     <p>
                         Here are a few technologies I’ve been working with recently:
